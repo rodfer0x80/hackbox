@@ -1,2 +1,5 @@
 # hackbox
-quickly assemble a docker machine to with volume equiped
+## Quickly assemble a docker machine to with volume equiped
+````
+./setup.py
+````
