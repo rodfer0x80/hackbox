@@ -2,5 +2,5 @@
 sudo docker run \
     --rm \
     -it \
-    -v ~/vms/hackbox/opt/:/host/ \
+    -v $PWD/opt:/host \
     hackbox
