@@ -1,2 +1,2 @@
 #!/bin/bash
-yes | pacman -Syyu $(cat modules.txt)
+yes | pacman -Syyu $(cat packages.txt)
