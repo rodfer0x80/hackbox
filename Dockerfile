@@ -4,7 +4,7 @@ WORKDIR /root
 COPY hello.sh .
 RUN ./hello.sh
 COPY init_hackbox.sh .
-COPY modules.txt .
+COPY packages.txt .
 RUN echo "Y" | ./init_hackbox.sh
 RUN rm init_hackbox.sh
 RUN rm hello.sh
