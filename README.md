@@ -1,5 +1,5 @@
 # hackbox
-## quickly assemble a docker machine to with volume equiped
+## quickly assemble a docker container
 
 > build and save image
 ````

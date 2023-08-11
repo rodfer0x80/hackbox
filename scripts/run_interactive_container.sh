@@ -1,6 +1,6 @@
 #!/bin/sh
 sudo docker run \
-    --rm \
     -it \
-    -v $PWD/opt:/host \
+    -v ./opt:/root/run \
+    -p 1337:1337
     hackbox

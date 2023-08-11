@@ -1,12 +1,12 @@
 .PHONY: build 
 build: 
-	./build_hackbox.sh
+	./scripts/build_image.sh
 
 .PHONY: clean
 clean:
-	./clean_hackbox.sh
+	./scripts/clean_image_kill_container.sh
 
 .PHONY: run
 run: 
-	./run_hackbox.sh
+	./scripts/run_container.sh
 
