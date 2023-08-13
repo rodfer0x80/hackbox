@@ -1,2 +1,2 @@
 #!/bin/sh
-docker build -t "hackbox" .
+docker build -t "rodfer0x80/hackbox:latest" .

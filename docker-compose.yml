@@ -1,8 +1,8 @@
 version: "2.1"
 services:
   hackbox:
-    image: hackbox
-    container_name: hackbox
+    image: rodfer0x80/hackbox:latest
+    container_name: rodfer0x80/hackbox:latest
     user: 1000:1000
     volumes:
       - ./opt:/root/run

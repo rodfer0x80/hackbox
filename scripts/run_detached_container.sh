@@ -3,4 +3,4 @@ sudo docker run \
     -d \
     -v ./opt:/root/run \
     -p 1337:1337
-    hackbox
+    rodfer0x80/hackbox:latest
