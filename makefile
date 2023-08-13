@@ -8,5 +8,9 @@ clean:
 
 .PHONY: run
 run: 
-	./scripts/run_container.sh
+	./scripts/run_interactive_container.sh
+
+.PHONY: rund
+rund:
+	./scripts/run_detached_container.sh
 
